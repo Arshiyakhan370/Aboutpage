@@ -290,7 +290,7 @@ text-align: left;
 .workexperience img{
     margine-right:40px;
     width: 100px; 
-    height: auto;
+    height: 100px;
 
 }
 .lastimg{
@@ -360,7 +360,8 @@ margin: 20px;
 
 }
 .small-container p{
-    font-family: Poppins;
+    margin-bottom:18%;
+   
 font-size: 20px;
 font-weight: 400;
 line-height: 28px;
@@ -376,20 +377,533 @@ border-radius: 12px;
 background-color:#FFFFFF ;
 }
 
-   .arrow{
-    position:"relative";
+.arrow {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* margin-left: 90%; */
+}
+
+svg {
+    z-index: 1;
+    margin-left: 82%;
+    margin-bottom:12%;
+}
+
+.circle {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    /* border:2px solid red; */
+    margin-bottom:8%;
+}
+
+.explore{
+    width: 100%;
+height: 110px;
+padding: 31.68px, 0px, 50.32px, 0px;
+text-align:center;
+font-size: 21px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+background-color: #FFFFFF;
+color:#000000;
+}
+.explore span{
+   border-bottom:2px solid  #EB1700;
+ }
+
+ /* our purpose */
+
+ .our-purpose{
+    width: 100%;
+height: 631px;
+padding: 108px, 100.47px, 108px, 100px;
+
+ }
+ .content-container {
+    display: flex;
+    max-width: 100%;
+    margin-top:10%;
+    margin-left:10%;
+    margin-right:10%;
+}
+.text-box {
+    flex: 1;
+   
+    width: 40%;
+height: 370px;
+opacity: 0.8px;
+margin-right:7%;
+/* border:2px solid red; */
+}
+
+.text-box h1 {
+margin-bottom:8%;   
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.text-box p {
+   font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
     
-      margin-left:80%;
-    z-index:99;
-   }
-   .circle{
-    position:"absolute";
-    margin-top:-30px;
-   
-   
-   }
+}
+.image-box {
+    flex: 1;
+    width: 40%;
+height: 500.83px;
+margin-left:5%;
+
+}
+
+.image-box img {
+    width: 100%;
+    height: 80%;
+    
+}
 
 
+.meet-the-team{
+    width: 100%;
+height: 984px;
+padding: 73.59px, 103px, 73.93px, 100px;
+background-color: #FFFFFF;
+
+
+}
+.meet-the-team h1{
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+color: #1D1D1D;
+margin-left:6%
+
+}
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-left:6%;
+    margin-bottom:6%
+}
+
+.image-item {
+    text-align: center; /* Center text */
+}
+
+.image-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.name1 {
+  
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    margin-bottom:18%
+   /* Add some margin for spacing */
+}
+.name{
+    display:flex;
+    justify-content:space-between;
+}
+.name p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #242321;
+    margin-left:4px;
+
+    }
+.name span{
+    margin-right:22px;
+}
+/* <section reviwe> */
+.reviwe{
+    width: 100%;
+height: 430px;
+padding: 124.16px, 116.91px, 85.84px, 100px;
+margin-top:10%;
+}
+.reviwe-cont{
+display :flex;
+justify-content:center;
+flex-direction:row;
+}
+.text-cont{
+    width: Hug (505px);
+height: Hug (88px);
+top: 124.16px;
+left: 100px;
+gap: 20px;
+
+}
+.text-cont h1{
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom:30px;
+}
+.text-cont p{
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.reviwe-box{
+    margin-left:10%;
+    width: 592.64px;
+height: 254px;
+padding: 35px, 71px, 35px, 71px;
+gap: 8px;
+background-color: #FAF9F9;
+/* border:2px solid red; */
+
+
+}
+.reviwe-box p{
+    margin-top:30px;
+    margin-left:80px;
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.rewive-logo{
+    display:flex;
+    flex-direction:row;
+    margin-top:15%;
+    margin-left:13%;
+}
+
+.rewive-logo img {
+    width: 64px;
+height: 64px;
+border-radius: 36px;
+
+}
+
+.rewive-logo h1{
+    margin-left:5%;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.rewive-logo p{
+    margin-left:-35%;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.rect{
+    /* border:2px solid red; */
+}
+.rectangle{
+    margin-left:48%;
+    margin-top:2.7%;
+    width: 27.91px;
+height: 10px;
+border-radius: 18.31px;
+background-color: #040404;
+
+
+}
+.circle1{
+    margin-left:50.5%;
+    margin-top:-0.8%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+border: 0.73px solid #000000;
+}
+.circle2{
+    margin-left:51.5%;
+    margin-top:-0.7%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+border: 0.73px solid #000000;
+
+}
+.circle3{
+    margin-left:52.5%;
+    margin-top:-0.8%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+border: 0.73px solid #000000;
+}
+.org-circle1{
+    margin-top:-1%;
+    margin-left:83.5%;
+    width: 42px;
+height: 42px;
+left: 42px;
+border: 1.51px;
+
+border: 0.73px solid #EB1700;
+border-radius: 50%;
+}
+.org-circle2{
+    margin-top:-15%;
+    margin-left:88.5%;
+    width: 42px;
+height: 42px;
+left: 42px;
+border: 1.51px;
+
+border: 0.73px solid #EB1700;
+border-radius: 50%;
+
+
+}
+.svg1{
+    margin-top:-2.2%;
+    margin-left:84.5%;  
+}
+.svg2{
+    margin-top:-2.2%;
+    margin-left:89.5%;  
+}
+/* <idea......> */
+.ideas{
+    width: 100%;
+height: 739px;
+padding: 82.09px, 242.38px, 82.09px, 100px;
+background-color: #F4F4F4;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+    margin-left:10%;
+   
+}
+
+.text-section h1 {
+    font-family: Poppins;
+    margin-bottom:8%;
+
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+width: 461.62px;
+height: 76px;
+
+}
+.text-section span{
+    color: #EB1700;
+
+}
+.text-section p {
+    width: 439.06px;
+height: 240px;
+opacity: 0.8px;
+
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.form-section {
+    flex: 1;
+    padding: 20px;
+    margin-right:10%;
+    margin-top:10%;
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+
+input {
+    width: 468px;
+height: 45px;
+padding: 7.5px, 270.3px, 7.5px, 21.7px;
+border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: none;
+    width: 468px;
+}
+.textarea-group textarea {
+    resize: none; 
+    border: none;
+    max-height: 77px; 
+    width: 468px;
+height: 77px;
+border-radius: 4px;
+
+}
+.robot-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+.robot-checkbox input {
+    background-color: #F4F4F4;
+    width: 20px;
+    height: 20px;
+    border:none;
+}
+.form-section h1{
+    margin-left:10%;
+    font-family: Poppins;
+font-size: 21px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.form-section span{
+    border-bottom:1px solid #EB1700;
+
+}
+/* signup.............................. */
+.signup{
+width: 100%;
+height: 390px;
+background-color: #050913;
+overflow:hidden:
+}
+
+.signup-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px;
+}
+
+.signup-text {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.signup-text h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.signup-text p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email-input {
+    display: flex;
+    margin-top: 20px;
+}
+
+.email-input input {
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.email-input button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.email-input button:hover {
+    background-color: #2980b9;
+}
+
+.image-blue {
+    flex: 1;
+    width: 50%;
+height: 331.1px;
+margin-left:50%;
+
+
+}
+
+.image-blue img {
+  width: 351.1px;
+    height: auto%;
+    border-radius: 8px;
+}
 @media screen and (max-width: 1024px) {
 
     .desktop-nav {
@@ -445,8 +959,8 @@ background-color:#FFFFFF ;
         height: 808px;
     
       }
-    .small-nav {
-      display: block;
+    /* .small-nav {
+      display: none;
       position: absolute;
       display:flex;
       flex-direction:column;
@@ -459,7 +973,7 @@ background-color:#FFFFFF ;
       background-color: #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       z-index: 5;
-    }
+    } */
   
     .small-nav a {
       display: block;
@@ -558,15 +1072,61 @@ background-color:#FFFFFF ;
     .workexperience img {
         width: 60px; 
     }
-}
+   
+        .indus {
+            margin: 5% 2%;
+            display:flex;
+            flex-direction:column;
+        }
+    
+        .container-wrapper {
+            margin-left:10%;
+            margin-right:10%;
+            display:grid;
+            gap:50px;
+            justify-content: center;
+            width:60%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .small-container {
+            width: 100%;
+        }
+        .content-container {
+            margin-top:80%;
+            flex-direction: column; 
+        }
+    
+        .text-box,
+        .image-box {
+            width: 100%; 
+           
+        }
+        .meet-the-team {
+           margin-top:30%;
+        }
+    
+        .image-container {
+            width:60%;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    
+        .name p {
+            font-size: 18px; 
+        }
+    
+
+    }
+
   
 
 /* Media query for small screens (max-width: 421px) */
 @media screen and (max-width: 421px) {
+    
     header {
         padding: 40px;
         flex-direction: row; 
-        text-align: center;
+        overflow: hidden;
         
     }
 
@@ -624,8 +1184,7 @@ background-color:#FFFFFF ;
     .get-started-button {
         margin: 20px 0;
     }
-}
-@media screen and (max-width: 421px) {
+
     .box {
         width: 100%; 
         margin-top:-400px;
@@ -710,8 +1269,8 @@ background-color:#FFFFFF ;
         }
         .workexperience {
             margin-right: 5%; 
-            margin-left: 10%;
-            border:2px solid red;
+            margin-left: 15%;
+            /* border:2px solid red; */
         }
     
         .workexperience img{
@@ -725,4 +1284,56 @@ background-color:#FFFFFF ;
             
           
         }
+        .indus {
+            /* margin: 5% 2%; */
+            display:flex;
+            flex-direction:column;
+            text-align:center;
+        }
+        .indus h1{
+            width: 100%;
+            font size:17px;
+            margin-bottom:70%;
+        }
+        .indus p{
+            width: 100%;
+            margin-bottom:30%;
+        }
+    
+        .container-wrapper {
+            
+            justify-content: center;
+            flex-direction:column;
+            margin:35px;
+    
+        }
+    
+        .small-container {
+            width: 90%;
+            align-items:center;
+            
+        }
+        .content-container {
+            margin-top:20%;
+            flex-direction: column; 
+        }
+    
+        .text-box,
+        .image-box {
+            width: 100%; 
+           
+        }
+        .meet-the-team {
+           margin-top:30%;
+        }
+    
+        .image-container {
+            width:15%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .name p {
+            font-size: 18px; 
+        }
+    
 }
