@@ -1100,21 +1100,42 @@ background-color:#EB1700;
      }
      .small-nav {
         display: none;
-        position: absolute;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: #FFFFFF;
+      width: 100%;
+      padding: 10px;
+      height: 100vh;
+      font-size:25px;
+      z-index: 99999;
+    }
+    .small-nav .active {
+        display: block;
+      }
+    
+      .small-nav  ul {
+        list-style-type: none;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+         
+        margin-top: -20%;
+        text-align: center;
         display: flex;
         flex-direction: column;
-        margin-top: 420px;
-        margin-left: 0;
-        width: 100%;
-        height: auto;
         justify-content: center;
         align-items: center;
-        background-color: #fff;
-        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-        z-index: 5;
-    }
+      }
     
-    .small-nav button {
+      .small-nav  ul li a{
+
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 700;
+        /* border:2px solid red; */
+      }
+    /* .small-nav button {
         display: block;
         width: 100%;
         padding: 15px;
@@ -1130,7 +1151,7 @@ background-color:#EB1700;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-    }
+    } */
     
     
       .burger-menu {
@@ -1731,6 +1752,7 @@ background-color:#EB1700;
         .text-box{
             width: 80%; 
             margin-left:2%;
+            margin-bottom:5%;
         }
         .image-box {
             width:70%; 
@@ -2486,3 +2508,241 @@ background-color:#EB1700;
         
         } 
     }
+    @media screen and (max-width: 360px) {
+
+        body{
+            overflow-x:hidden;
+        }
+        header {
+            padding: 10px;
+           /* margin-top:20%;  */
+            
+        }
+    
+        .logo img {
+            margin-left: 10%; 
+            margin-bottom: 10px;
+        }
+    
+        .burger-menu {
+            margin-right: -120%;
+          
+        }
+    
+        .container {
+            
+            width: 100%; 
+            height: 250px; 
+            margin-top: 20px; 
+            margin-left: 60%;
+            margin-right:20% ; 
+            padding: 20px;
+            /* border:2px solid red; */
+        }
+    
+        .container h1 {
+           
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1.5;
+            letter-spacing: -0.05em;
+            
+        }
+    
+        .desktop {
+            width: 230%; 
+            margin-top:-500px;
+        }
+    
+        .desktop img {
+            width: 100%; 
+            height: auto; 
+        }
+    
+        
+    
+        .get-started-button {
+            margin: 20px 0;
+        }
+    
+        .box {
+            width: 220%; 
+            margin-top:-100px;
+            flex-direction: column; 
+            margin-right:10%;
+            margin-left:5%;
+            /* border:2px solid red; */
+        }
+    
+        .sidebar {
+            width: 90%; 
+            
+          
+        }
+        .sidebar p{
+            /* border:2px solid red; */
+            margin-right:10%;
+            
+          
+        }
+    
+        .content {
+            width: 80%; 
+            height:50%;
+            /* border:2px solid red; */
+            margin-right:5%;
+            /* margin-bottom:10%; */
+        }
+        .content p{
+            margin-top:15%;
+            /* border:2px solid red; */
+            
+        }
+        
+            .our-ceo {
+                margin-top:10%;
+                flex-direction:column;
+                width:230%;
+                
+           
+            }
+        
+            .left-container {
+                margin-left: -5%; 
+            }
+        
+            .right-container {
+                margin-left: 13%; 
+               
+                /* border:2px solid red; */
+            }
+        
+          
+            .work {
+                width:200%;
+                display:flex;
+                flex-direction:column;
+                margin-left:15%; 
+                margin-top: 15%;
+                margin-bottom: 10%;
+            }
+        
+           
+            
+            .indus {
+                width: 200%;
+                display:flex;
+                flex-direction:column;
+                text-align:center;
+                
+            }
+            .indus h1{
+                margin-left: 5%;
+                width: 100%;
+                font size:17px;
+                
+            }
+            .indus p{
+                width: 90%;
+                margin-left: 5%;
+            }
+        
+            
+    
+        .our-purpose{
+        width: 210%;
+        height: 631px;
+        padding: 108px, 100.47px, 108px, 100px;
+        margin-top:160%;
+         }
+         
+    
+        .content-container {
+             display:flex;   
+            flex-direction: column; 
+            width: 100%;
+    
+        }
+            .text-box{
+                width: 80%; 
+                margin-left:2%;
+                margin-bottom:5%;
+            }
+            .image-box {
+                width:70%; 
+                margin-left:5%;
+            }
+           
+            .image-container {
+                width:190%;
+                margin-left:10%;
+                grid-template-columns: repeat(3, 1fr);
+            }
+        
+            .name p {
+                font-size: 18px; 
+            }
+            .reviwe{
+                width: 210%;
+                  height: 400px;
+                  margin-top:45%;
+                  margin-bottom:70%; 
+            }
+           
+            .ideas{
+                /* margin-top:40%; */
+                width: 230%;
+                background-color: #F4F4F4;
+            }
+           
+            /* signup.............................. */
+            .signup{
+            margin-top:25%;
+            width: 230%;
+            height: 390px;
+            background-color: #050913;
+            overflow:hidden:
+            }
+            
+            
+            
+            /* contactus........................................... */
+            .contact-us{
+                width: 130%;
+                height: 644px;
+                margin-bottom:10%;
+            }
+            .contact-section {
+                display: flex;
+               flex-direction:row;
+               margin-right:10%;
+               margin-left:-5%;
+               margin-bottom:10%;
+            }
+            .left-box{
+                margin-left:5%;   
+            }
+            .right-box {
+            margin-right:25%;
+            margin-left:-1%;
+            /* border:2px solid red; */
+            width:50%;
+            }
+            .right-box p{
+                font-size: 15px;  
+            }
+            .li-tag{
+                margin-right:2%;
+            
+            font-size: 12px;
+           
+            
+            }  
+            .li-tag li{
+                margin-right:2%;
+            
+            font-size: 12px;
+           
+            
+            } 
+        }
