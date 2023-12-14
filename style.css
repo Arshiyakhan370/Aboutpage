@@ -2005,16 +2005,16 @@ background-color:#EB1700;
     }
 
     .burger-menu {
-        margin-right: 15%;
+        margin-right: -100%;
       
     }
 
     .container {
         
-        width: 60%; 
+        width: 100%; 
         height: 250px; 
         margin-top: 20px; 
-        margin-left: 20%;
+        margin-left: 50%;
         margin-right:20% ; 
         padding: 20px;
         /* border:2px solid red; */
@@ -2022,7 +2022,7 @@ background-color:#EB1700;
 
     .container h1 {
        
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
         line-height: 1.5;
         letter-spacing: -0.05em;
@@ -2030,7 +2030,7 @@ background-color:#EB1700;
     }
 
     .desktop {
-        width: 100%; 
+        width: 210%; 
         margin-top:-500px;
     }
 
@@ -2053,12 +2053,12 @@ background-color:#EB1700;
     }
 
     .box {
-        width: 90%; 
+        width: 200%; 
         margin-top:-100px;
         flex-direction: column; 
         margin-right:5%;
         margin-left:5%;
-        
+        /* border:2px solid red; */
     }
 
     .sidebar {
@@ -2089,7 +2089,7 @@ background-color:#EB1700;
         .our-ceo {
             margin-top:10%;
             flex-direction:column;
-            padding: 10.14px 10.42px 20px 10.42px; 
+            width:200%;
             
        
         }
@@ -2100,7 +2100,7 @@ background-color:#EB1700;
     
         .right-container {
             margin-left: 13%; 
-            width:90%;
+           
             /* border:2px solid red; */
         }
     
@@ -2121,9 +2121,10 @@ background-color:#EB1700;
             margin-left: 13%; 
         }
         .work {
+            width:180%;
             display:flex;
             flex-direction:column;
-            margin-left:7%; 
+            margin-left:10%; 
             margin-top: 15%;
             margin-bottom: 10%;
         }
@@ -2139,14 +2140,20 @@ background-color:#EB1700;
     
         .work p {
             margin-right: 15%;
-            width:100%;
            
             font-size: 17px; 
             line-height: 24px;
         }
+        .carousel-container {
+            margin-left: 15%;
+            overflow: hidden;
+            width: 190%; /* Adjust the width of the carousel */
+            margin: 0 auto; /* Center the carousel */
+        }
+        
         .workexperience {
-          
-            margin-left: 5%;
+            
+            margin-left: 15%;
             /* border:2px solid red; */
         }
     
@@ -2162,7 +2169,7 @@ background-color:#EB1700;
           
         }
         .indus {
-            /* margin: 5% 2%; */
+            width: 200%;
             display:flex;
             flex-direction:column;
             text-align:center;
@@ -2182,17 +2189,17 @@ background-color:#EB1700;
         .container-wrapper {
             display: grid;
             justify-content: center;
-            grid-template-columns: repeat(3, 1fr);
-            width:100%;
+            grid-template-columns: repeat(2, 1fr);
+            width:200%;
             gap:-1%;
            
-            margin-left:2%;
+            margin-left:8%;
             margin-right:5%;
     
         }
         .img{
-            width: 180.26px;
-        height: 180.26px;
+            width: 270.26px;
+        height: 270.26px;
         padding: 36.73px 40.53px 42.77px 28.3px;
         border-radius: 12px;
         background-color:#FFFFFF ;
@@ -2209,10 +2216,10 @@ background-color:#EB1700;
     }
 
     .our-purpose{
-    width: 100%;
+    width: 200%;
     height: 631px;
     padding: 108px, 100.47px, 108px, 100px;
-    margin-top:50%;
+    margin-top:160%;
      }
      
 
@@ -2231,11 +2238,11 @@ background-color:#EB1700;
            
         }
         .meet-the-team {
-            margin-top:15%;
+            margin-top:25%;
         }
     
         .image-container {
-            width:80%;
+            width:180%;
             margin-left:10%;
             grid-template-columns: repeat(3, 1fr);
         }
@@ -2244,10 +2251,10 @@ background-color:#EB1700;
             font-size: 18px; 
         }
         .reviwe{
-            width: 100%;
+            width: 200%;
               height: 400px;
-              margin-top:35%;
-              margin-bottom:40%; 
+              margin-top:45%;
+              margin-bottom:70%; 
         }
         .reviwe-cont{
             display :flex;
@@ -2261,8 +2268,8 @@ background-color:#EB1700;
               
             
         .reviwe-box{
-            width: 100%;
-            margin-left:0%;
+            width: 90%;
+            margin-left:3%;
          
             margin-right:15%;
            
@@ -2312,8 +2319,8 @@ background-color:#EB1700;
             margin-left:69.5%;  
         }
         .ideas{
-            /* margin-top:100%; */
-            width: 100%;
+            /* margin-top:40%; */
+            width: 200%;
             background-color: #F4F4F4;
         }
         .contain{
@@ -2332,7 +2339,7 @@ background-color:#EB1700;
 
         .form-section {
             flex: 1;
-            margin-top:-35%;
+            margin-top:1%;
             margin-right:10%;
            
         
@@ -2372,8 +2379,8 @@ background-color:#EB1700;
         }
         /* signup.............................. */
         .signup{
-        margin-top:5%;
-        width: 100%;
+        margin-top:25%;
+        width: 200%;
         height: 390px;
         background-color: #050913;
         overflow:hidden:
